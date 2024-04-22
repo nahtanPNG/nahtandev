@@ -1,8 +1,10 @@
-
-import './App.css'
+import { Sidebar } from './components/sidebar/sidebar'
 
 export default function App() {
   return (
-    <h1 className='text-3xl font-bold underline'>Hello World</h1>
+    <body className='bg-gray-700 h-screen'>
+      <Sidebar />
+    </body>
+    
   )
 }
